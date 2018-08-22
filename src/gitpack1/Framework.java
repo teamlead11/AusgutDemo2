@@ -6,19 +6,18 @@ public class Framework {
 		System.out.println("this is my framework");
 		add(5, 6);
 		add(5, 6, 7);
-		revbyGayatri(a);
+		revbyGayatri(5);
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
-<<<<<<< HEAD
+
 		
 		reverseBySiva("WELCOME","");
 		
-=======
+
 		revBySilambarasan();
 
->>>>>>> 956d994bbf2fe664d134fbfeaa92bf9c56af1608
-
+		reverseByPrabu("test","");
 	}
 
 	static public void add(int a, int b) {
@@ -42,7 +41,7 @@ public class Framework {
 	
 	
 	
-	public static void revbyGayatri(int a) {
+	public static int revbyGayatri(int a) {
 		int i=0,j=0;
 		while(a>0) {
 			i = a%10;
