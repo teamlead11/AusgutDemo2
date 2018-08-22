@@ -6,7 +6,7 @@ public class Framework {
 		System.out.println("this is my framework");
 		add(5, 6);
 		add(5, 6, 7);
-		revbyGayatri(a);
+		//revbyGayatri(a);
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
@@ -43,7 +43,7 @@ public class Framework {
 			j=(j*10)+i;
 			a=a/10;
 
-			}		return j;
+			}		//return j;
 
 	}
 	
