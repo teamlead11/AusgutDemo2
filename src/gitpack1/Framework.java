@@ -16,6 +16,7 @@ public class Framework {
 		
 =======
 		revBySilambarasan();
+		reverseByJyothi();
 
 >>>>>>> 956d994bbf2fe664d134fbfeaa92bf9c56af1608
 
@@ -86,6 +87,10 @@ public static void revBySilambarasan() {
 		
 	}
 	System.out.println(rev);
+	
+}
+public static void reverseByJyothi() {
+	System.out.println("reverse jyothi");
 	
 }
 }
