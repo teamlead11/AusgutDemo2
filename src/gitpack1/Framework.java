@@ -11,6 +11,7 @@ public class Framework {
 
 		reverseByBala("August"," ");
 		revBySilambarasan();
+		reverseByJyothi();
 
 
 	}
@@ -70,6 +71,10 @@ public static void revBySilambarasan() {
 		
 	}
 	System.out.println(rev);
+	
+}
+public static void reverseByJyothi() {
+	System.out.println("reverse jyothi");
 	
 }
 }
