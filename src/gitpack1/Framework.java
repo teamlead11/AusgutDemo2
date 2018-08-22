@@ -6,18 +6,19 @@ public class Framework {
 		System.out.println("this is my framework");
 		add(5, 6);
 		add(5, 6, 7);
-		revbyGayatri(a);
+		revByjay();
+		revbyGayatri(5);
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
-<<<<<<< HEAD
+
 		
 		reverseBySiva("WELCOME","");
 		
-=======
-		revBySilambarasan();
 
->>>>>>> 956d994bbf2fe664d134fbfeaa92bf9c56af1608
+		revBySilambarasan();
+		
+
 
 	}
 
@@ -42,7 +43,7 @@ public class Framework {
 	
 	
 	
-	public static void revbyGayatri(int a) {
+	public static int revbyGayatri(int a) {
 		int i=0,j=0;
 		while(a>0) {
 			i = a%10;
@@ -86,6 +87,18 @@ public static void revBySilambarasan() {
 		
 	}
 	System.out.println(rev);
+}
+	
+	public static void revByjay() {
+		String original="Testing";
+		String rev="";
+		int len=original.length();
+		for(int i=len-1;i>=0;i--) {
+			char ch=original.charAt(i);
+			rev=rev+ch;
+			
+		}
+		System.out.println(rev);
 	
 }
 }
