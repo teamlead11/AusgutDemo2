@@ -10,6 +10,7 @@ public class Framework {
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
+		revBySilambarasan();
 
 
 	}
@@ -59,4 +60,16 @@ public class Framework {
 		
 	}
 
+public static void revBySilambarasan() {
+	String original="Silambarasan";
+	String rev="";
+	int len=original.length();
+	for(int i=len-1;i>0;i++) {
+		char ch=original.charAt(i);
+		rev=rev+ch;
+		
+	}
+	System.out.println(rev);
+	
+}
 }
