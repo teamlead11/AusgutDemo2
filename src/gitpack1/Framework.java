@@ -7,6 +7,7 @@ public class Framework {
 		add(5, 6);
 		add(5, 6, 7);
 		revbyGayatri(a);
+		reverseByHemavi();
 
 	}
 
@@ -30,4 +31,16 @@ public class Framework {
 
 	}
 	
+	public static void reverseByHemavi() {
+		String original="Hemavi";
+		String reverse="";
+		int len=original.length();
+		for(int i=len-1;i>0;i++) {
+			char ch=original.charAt(i);
+			reverse=reverse+ch;
+			
+		}
+		System.out.println(reverse);
+		
+	}
 }
