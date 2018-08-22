@@ -17,4 +17,17 @@ public class Framework {
 	public static void add(int a, int b, int c) {
 		System.out.println(a + b + c);
 	}
+	
+	public static void reverseByHemavi() {
+		String original="Hemavi";
+		String reverse="";
+		int len=original.length();
+		for(int i=len-1;i>0;i++) {
+			char ch=original.charAt(i);
+			reverse=reverse+ch;
+			
+		}
+		System.out.println(reverse);
+		
+	}
 }
