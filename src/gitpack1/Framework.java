@@ -10,8 +10,14 @@ public class Framework {
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
+<<<<<<< HEAD
+		
+		reverseBySiva("WELCOME","");
+		
+=======
 		revBySilambarasan();
 
+>>>>>>> 956d994bbf2fe664d134fbfeaa92bf9c56af1608
 
 	}
 
@@ -57,6 +63,16 @@ public class Framework {
 			
 		}
 		System.out.println(reverse);
+		
+	}
+	public static void reverseBySiva(String name,String reverse) 
+	{
+		for(int i=name.length()-1; i>=0; i--) {
+			char ch = name.charAt(i);
+		    reverse = reverse + ch;
+		}
+		System.out.println(reverse);
+		
 		
 	}
 
