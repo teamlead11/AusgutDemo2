@@ -9,6 +9,9 @@ public class Framework {
 		add(5, 6, 7);
 		reverseByHemavi();
 
+		reverseByManoj("August"," ");
+
+
 	}
 
 	static public void add(int a, int b) {
@@ -18,6 +21,18 @@ public class Framework {
 	public static void add(int a, int b, int c) {
 		System.out.println(a + b + c);
 	}
+
+	public static void reverseByManoj(String name, String rev) {
+		
+		
+		for(int i=name.length()-1; i>=0; i--) {
+			char ch = name.charAt(i);
+		    rev = rev + ch;
+		}
+		System.out.println(rev);
+		
+	}
+	
 	
 	public static void reverseByHemavi() {
 		String original="Hemavi";
@@ -31,4 +46,5 @@ public class Framework {
 		System.out.println(reverse);
 		
 	}
+
 }
