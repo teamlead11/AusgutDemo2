@@ -12,7 +12,7 @@ public class Framework {
 		reverseByRajasri();
 		reverseByHemavi();
 
-		reverseByManoj("August"," ");
+		reverseByBala("August"," ");
 
 
 
@@ -25,6 +25,7 @@ public class Framework {
 	public static void add(int a, int b, int c) {
 		System.out.println(a + b + c);
 	}
+
 
 	public static void reverseByRajasri() {
 		String s = "Rajasri";
@@ -40,7 +41,10 @@ public class Framework {
 	}
 
 
-	public static void reverseByManoj(String name, String rev) {
+	public static void reverseByManoj(String name, String rev) {}
+
+	public static void reverseByBala(String name, String rev) {
+
 		
 		
 		for(int i=name.length()-1; i>=0; i--) {
