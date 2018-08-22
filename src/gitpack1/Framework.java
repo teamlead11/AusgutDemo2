@@ -7,6 +7,7 @@ public class Framework {
 		System.out.println("this is my framework");
 		add(5, 6);
 		add(5, 6, 7);
+		reverseBySanthi();
 
 	}
 
@@ -18,4 +19,8 @@ public class Framework {
 		System.out.println(a + b + c);
 		System.out.println("Adding nos");
 	}
+	public static void reverseBySanthi() {
+		System.out.println("ihtnas");
+	}
+	
 }
