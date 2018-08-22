@@ -10,6 +10,7 @@ public class Framework {
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
+		reverseSaradha();
 
 
 	}
@@ -58,5 +59,15 @@ public class Framework {
 		System.out.println(reverse);
 		
 	}
-
+public static void reverseSaradha() {
+	String s= "Hello welcome All";
+	String r="";
+	for (int i=s.length()-1;i>0;i--) {
+		r=r+s.charAt(i);
+	}
+	System.out.println(r);
+	
+	}
+	
+}
 }
