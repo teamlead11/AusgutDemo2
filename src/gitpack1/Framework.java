@@ -18,6 +18,8 @@ public class Framework {
 		revBySilambarasan();
 
 		reverseByPrabu("test","");
+		
+		reverseByAarthi("Thursday");
 	}
 
 	static public void add(int a, int b) {
@@ -96,5 +98,14 @@ public static void reverseByPrabu(String name,String reverse)
 	System.out.println(reverse);
 	
 	
+}
+public static void reverseByAarthi(String str)
+{
+	String rev="";
+	for(int s=str.length();s>=0;s--)
+	{
+		rev=rev+str.charAt(s);
+	}
+	System.out.println(rev);
 }
 }
