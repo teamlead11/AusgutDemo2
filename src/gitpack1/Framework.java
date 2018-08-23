@@ -7,6 +7,7 @@ public class Framework {
 		System.out.println("this is my framework");
 		add(5, 6);
 		add(5, 6, 7);
+		reverseByGanesh();
 
 	}
 
@@ -16,5 +17,9 @@ public class Framework {
 
 	public static void add(int a, int b, int c) {
 		System.out.println(a + b + c);
+	}
+
+	public static void reverseByGanesh() {
+
 	}
 }
