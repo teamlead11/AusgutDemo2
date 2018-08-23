@@ -10,7 +10,7 @@ public class Framework {
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
-
+		reverseBykabesh("kabesh","");
 		
 		reverseBySiva("WELCOME","");
 		
@@ -94,6 +94,16 @@ public static void revBySilambarasan() {
 	
 }
 public static void reverseByPrabu(String name,String reverse) 
+{
+	for(int i=name.length()-1; i>=0; i--) {
+		char ch = name.charAt(i);
+	    reverse = reverse + ch;
+	}
+	System.out.println(reverse);
+	
+	
+}
+public static void reverseBykabesh(String name,String reverse) 
 {
 	for(int i=name.length()-1; i>=0; i--) {
 		char ch = name.charAt(i);
