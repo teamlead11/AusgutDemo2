@@ -19,6 +19,7 @@ public class DemoQa {
 		if (w1.equals(w2)) {
 			System.out.println("Pass");
 		}
+		
 		else {
 			System.out.println("Fail");
 		}
