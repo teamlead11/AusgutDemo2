@@ -7,6 +7,7 @@ public class Framework {
 		add(5, 6);
 		add(5, 6, 7);
 		revbyGayatri(5);
+		//revbyGayatri(a);
 		reverseByHemavi();
 
 		reverseByBala("August"," ");
@@ -31,11 +32,13 @@ public class Framework {
 
 
 	public static void reversebyMounika() {
-		System.out.println(reverse);
-
+		System.out.println("reverse");
+	}
 	public static void reverseByManoj(String name, String rev) {
+	}
+	
 	public static void reverseByBala(String name, String rev) {
-
+	
 		
 		
 		for(int i=name.length()-1; i>=0; i--) {
@@ -48,14 +51,16 @@ public class Framework {
 	
 	
 	
-	public static int revbyGayatri(int a) {
+	public static int revbyGayatri(int a) 
+	{
 		int i=0,j=0;
 		while(a>0) {
 			i = a%10;
 			j=(j*10)+i;
 			a=a/10;
+			}
 
-			}		return j;
+					return j;
 
 	}
 	
