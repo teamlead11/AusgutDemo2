@@ -31,9 +31,12 @@ public class Framework {
 
 
 	public static void reversebyMounika() {
-		System.out.println(reverse);
+		System.out.println("reverse");
+	}
 
 	public static void reverseByManoj(String name, String rev) {
+	}
+	
 	public static void reverseByBala(String name, String rev) {
 
 		
