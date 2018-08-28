@@ -16,11 +16,12 @@ public class DemoQa {
 		Select s= new Select(web);
 		String w1 = s.getFirstSelectedOption().getText();
 		String w2="Afghanistan";
-		if (w1.equals(w2)) {
+		if (w1.equals(w2)) 
+		{
 			System.out.println("Pass");
 		}
-		
 		else {
+			
 			System.out.println("Fail");
 		}
 	}
